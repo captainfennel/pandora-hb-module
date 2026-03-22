@@ -46,7 +46,7 @@
         "compatibility": {}
       }
     ]
-  }
+  },
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
