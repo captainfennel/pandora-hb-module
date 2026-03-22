@@ -1,7 +1,7 @@
 {
   "id": "mays-pandora-hb-module",
   "title": "May's Pandora HB",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -47,4 +47,8 @@
       }
     ]
   }
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "changelog": "#{CHANGELOG}#"
 }
