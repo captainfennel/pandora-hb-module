@@ -1,0 +1,50 @@
+{
+  "id": "mays-pandora-hb-module",
+  "title": "May's Pandora HB",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>HB artifacts for Eberron</p>",
+  "authors": [
+    {
+      "name": "Haleth",
+      "discord": "haleth",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "artifacts-1",
+      "label": "Сундук Пандоры",
+      "path": "packs/artifacts-1",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ru-ru",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
